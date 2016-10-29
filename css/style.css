@@ -126,6 +126,7 @@ textarea {
 	font-weight: 700;
 	line-height: 20px;
 	margin-bottom: 27px;
+	border-radius: 5px;
 }
 .ba-account__submit:hover {
 	background-color: #F7493B;
