@@ -90,6 +90,10 @@ textarea {
 	color: #E83559;
 	cursor: pointer;
 }
+.ba-account__label a:hover {
+	color: #F7493B;
+	text-decoration: underline;
+}
 .ba-field {
 	display: inline-block;
 	border: none;
@@ -99,6 +103,9 @@ textarea {
 	outline: none;
 	margin-bottom: 15px;
 	padding-left: 14px;
+}
+.ba-field:focus {
+	background-color: #ffcac1;
 }
 .ba-account__first-name {
 	width: 48%;
@@ -131,6 +138,9 @@ textarea {
 .ba-account__submit:hover {
 	background-color: #F7493B;
 }
+.ba-account__submit:active {
+
+}
 .ba-footer-info {
 	color:  #797b7f;
 	font-size: 12px;
@@ -142,4 +152,8 @@ textarea {
 	color:  #e22a6c;
 	text-decoration: none;
 	cursor: pointer;
+}
+.ba-footer-info a:hover {
+	color: #F7493B;
+	text-decoration: underline;
 }
